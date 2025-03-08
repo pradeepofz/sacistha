@@ -1,0 +1,16 @@
+.marquee-container {
+  width: 100%;
+  position: relative;
+}
+
+.marquee-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  will-change: transform; /* Optimizing for performance */
+}
+
+.marquee-content {
+  white-space: nowrap;
+  padding: 0 10px;
+  display: inline-block;
+}
